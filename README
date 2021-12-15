@@ -1,0 +1,18 @@
+New problem scaffold
+
+package main
+
+func partOne() {
+	lines, err := common.GetLinesFromFile("input.txt")
+	common.FatalIf(err)
+}
+
+//func partTwo() {
+//	lines, err := common.GetLinesFromFile("input.txt")
+//	common.FatalIf(err)
+//}
+
+func main() {
+	partOne()
+//	partTwo()
+}
